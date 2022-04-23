@@ -1,0 +1,15 @@
+div{
+    background-color: azure;
+    color: red;
+    border-radius: 5px;
+    ul{
+        list-style-type: disc;
+        li{
+            color: red;
+            a{
+                text-decoration: underline;
+                color: azure;
+            }
+        }
+    }
+}

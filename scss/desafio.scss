@@ -1,0 +1,29 @@
+div{
+    background-color: blueviolet;
+    color: blueviolet;
+}
+
+
+@import "bootstrap";
+@import "ejemplo";
+$color:rgb(143, 141, 141);
+
+
+div{
+    background-color: $color;
+    
+    border-radius: 5px;
+    ul{
+        list-style-type: disc;
+        li{
+            color: blue;
+            a{
+                text-decoration: underline;
+                color: blue;
+            }
+        }
+    }
+}
+
+
+
