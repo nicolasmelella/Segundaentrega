@@ -11820,4 +11820,83 @@ div ul li a {
   color: blue;
 }
 
+main {
+  width: 1440px;
+}
+main section {
+  width: 720px;
+}
+main #sectionDos {
+  width: 360px;
+}
+main #sectionDos div {
+  width: 300px;
+}
+
+.color, .color--nuevo {
+  width: 250px;
+  height: 70px;
+  background-color: navajowhite;
+  text-align: center;
+  color: gray;
+  border-radius: 15px;
+}
+
+.color--nuevo {
+  background-color: aliceblue;
+}
+
+.caja {
+  width: 550px;
+  height: 275px;
+}
+
+p {
+  color: green;
+}
+
+.columna-1 {
+  background-color: azure;
+}
+
+.columna-2 {
+  background-color: azure;
+}
+
+.columna-3 {
+  background-color: azure;
+}
+
+.columna-4 {
+  background-color: azure;
+}
+
+.columna-5 {
+  background-color: azure;
+}
+
+.columna-6 {
+  background-color: azure;
+}
+
+.fondobody {
+  background-color: azure;
+}
+
+.fondovalor2 {
+  background-color: azure;
+}
+
+.btn-facebook {
+  background-color: blue;
+}
+
+.btn-twitter {
+  background-color: red;
+}
+
+.btn-mail {
+  background-color: green;
+}
+
 /*# sourceMappingURL=estilos123.css.map */

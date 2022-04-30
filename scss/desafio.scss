@@ -26,4 +26,91 @@ div{
 }
 
 
+$anchura: 720px;
+
+main{ 
+    width: $anchura * 2;
+    section {
+        width: $anchura;
+    }
+    #sectionDos{
+        width: $anchura / 2 ;
+        div{
+            width: ($anchura / 2) - 60;
+        }
+    } 
+}
+
+.color{ 
+    width: 250px;
+    height: 70px;
+    background-color: navajowhite;
+    text-align: center;
+    color: gray;
+    border-radius: 15px;
+
+}
+
+.color--nuevo{
+    @extend .color;
+    background-color: aliceblue;
+
+}
+
+@mixin ejemplo ($anchura, $altura) {
+    width: $anchura;
+    height: $altura;
+    
+}
+
+.caja{
+    @include ejemplo(550px,275px);
+
+}
+
+
+
+
+
+
+
+$seccion: section;
+
+p{
+@if $seccion == section {
+    color: green;
+    
+}
+}
+
+
+@for $bucle from 1 through 6 {
+    .columna-#{$bucle} {
+        background-color: azure;
+
+    }
+}
+
+@each $secciones in body, valor2 { 
+.fondo#{$secciones}  {
+    background-color: azure;
+
+}
+}
+
+$mapa:(
+facebook: blue,
+twitter: red,
+mail: green,
+
+
+);
+
+@each $nombres, $colorcito in $mapa {
+    .btn-#{$nombres} { 
+    background-color: $colorcito;
+}
+
+}
+
 
